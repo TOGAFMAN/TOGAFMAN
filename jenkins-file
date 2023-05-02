@@ -6,6 +6,8 @@ pipeline {
         stage('Ejecutar comandos de Bash') {
             steps {
                 sh '''
+                ls -l
+                echo $Parameter
                                     '''
             }
         }
